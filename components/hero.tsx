@@ -4,18 +4,18 @@ import { ChevronDown } from "lucide-react"
 
 export default function Hero() {
     return (
-        <section className="min-h-screen flex flex-col justify-center pt-20 pb-10 relative">
-            <div className="max-w-7xl mx-auto w-full md:flex md:mr-auto ml-auto md:items-center md:gap-12">
+        <section className="min-h-screen pt-20">
+            <div className="max-w-7xl mx-auto w-full md:flex md:mr-auto ml-auto md:items-center md:justify-between md:gap-12">
 
                 {/* Intro stuff */}
                 <div className="">
                     <div className="mb-10">
-                        <span className="text-gray-400 text-sm md:text-base">Hello, I'm a Designer & Developer 👋</span>
+                        <span className="text-gray-400 text-sm md:text-base">Hello, I&apos;m a Designer & Developer 👋</span>
                     </div>
 
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8">
                         <span className="inline-block mb-6">
-                            <span className="text-white">I'm </span>
+                            <span className="text-white">I&apos;m </span>
                             <span className="relative inline-block">
                                 <span className="text-white">Arinze</span>
                                 <svg
@@ -61,20 +61,20 @@ export default function Hero() {
                             href="#contact"
                             className="px-6 py-3 bg-white text-black rounded-full hover:bg-gray-200 transition-colors text-sm"
                         >
-                            Let's Talk
+                            Let&apos;s Talk
                         </Link>
                     </div>
                 </div>
 
                 {/* Hero Image */}
-                <div className="flex justify-center items-center mb-8 p-0 m-0 w-max">
-                    <div className="relative w-full max-w-md m-0">
+                <div className="flex justify-center items-center mb-8 p-0 m-0 w-max ml-auto mr-auto">
+                    <div className="">
                         <Image
                             src="https://static.readdy.ai/image/c1cfe564f3251cf95b36f61d53cebf1d/3402c51c811ece3a39e40be450c9ed36.jpeg"
                             alt="Zikodev Logo"
                             width={400}
                             height={400}
-                            className="rounded-lg block m-0 p-0"
+                            className="rounded-lg m-0 p-0"
                         />
                     </div>
                 </div>
