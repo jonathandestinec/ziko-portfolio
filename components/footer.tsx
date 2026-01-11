@@ -19,11 +19,11 @@ export default function Footer() {
                             <span className="font-semibold text-white">Ziko Dev</span>
                         </div>
                         <p className="text-gray-500 text-sm">Web Designer, Mobile Developer & Graphic Designer</p>
-                        <p className="text-gray-500 text-sm mt-1">arinzezikora772@gmail.com | 07036113772</p>
+                        <p className="text-gray-500 text-sm mt-1 w-full break-all">arinzezikora772@gmail.com | 07036113772</p>
                     </div>
 
                     {/* Social Links */}
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-4 break-all w-full">
                         <a
                             href="#"
                             className="w-10 h-10 bg-[#1a1a1a] rounded-lg flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#2a2a2a] transition-colors"

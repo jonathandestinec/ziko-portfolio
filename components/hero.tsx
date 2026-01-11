@@ -4,8 +4,8 @@ import { ChevronDown } from "lucide-react"
 
 export default function Hero() {
     return (
-        <section className="min-h-screen pt-20">
-            <div className="max-w-7xl mx-auto w-full md:flex md:mr-auto ml-auto md:items-center md:justify-between md:gap-12">
+        <section className="min-h-screen pt-20 w-full">
+            <div className=" w-full block mx-auto md:flex md:items-center md:justify-between md:gap-12">
 
                 {/* Intro stuff */}
                 <div className="">
@@ -50,7 +50,7 @@ export default function Hero() {
                         mobile apps, and creative designs.
                     </p>
 
-                    <div className="flex flex-wrap gap-4 mb-12">
+                    <div className=" w-full flex flex-wrap gap-4 mb-12">
                         <Link
                             href="#work"
                             className="px-6 py-3 border border-gray-600 rounded-full text-white hover:bg-white hover:text-black transition-colors text-sm"
@@ -74,7 +74,7 @@ export default function Hero() {
                             alt="Zikodev Logo"
                             width={400}
                             height={400}
-                            className="rounded-lg m-0 p-0"
+                            className="rounded-lg m-0 p-0 w-30 md:w-96 object-cover"
                         />
                     </div>
                 </div>

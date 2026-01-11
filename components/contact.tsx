@@ -24,7 +24,7 @@ export default function Contact() {
                 {/* CTA Header */}
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                        <span className="text-white">Let's Work </span>
+                        <span className="text-white">Let&apos;s Work </span>
                         <span className="text-white relative">
                             Together
                             <svg
@@ -38,7 +38,7 @@ export default function Contact() {
                         </span>
                     </h2>
                     <p className="text-gray-400 max-w-xl mx-auto mt-6">
-                        Have a project in mind? Let's chat about how we can bring your vision to life.
+                        Have a project in mind? Let&apos;s chat about how we can bring your vision to life.
                     </p>
                 </div>
 
@@ -47,10 +47,10 @@ export default function Contact() {
                     <div>
                         <h3 className="text-2xl font-bold text-white mb-4">Get in Touch</h3>
                         <p className="text-gray-400 mb-8">
-                            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
                         </p>
 
-                        <div className="space-y-6">
+                        <div className="space-y-6 w-full break-all">
                             <div className="flex items-start gap-4">
                                 <div className="w-10 h-10 bg-[#1a1a1a] rounded-lg flex items-center justify-center shrink-0">
                                     <Mail className="text-gray-400" size={18} />
