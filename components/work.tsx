@@ -69,7 +69,7 @@ export default function Work() {
                                     src={project.image || "/placeholder.svg"}
                                     alt={project.title}
                                     fill
-                                    className="object-cover transition-transform duration-500 group-hover:scale-115 ease-in-out"
+                                    className="object-cover  transition-transform duration-500 group-hover:scale-115  group-active:scale-115 ease-in-out"
                                 />
                             </div>
                             <div>

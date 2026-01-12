@@ -15,7 +15,7 @@ export default function ProjectGrid({ projects }: ProjectGridProps) {
                             src={project.image || "/placeholder.svg"}
                             alt={project.title}
                             fill
-                            className="object-cover transition-transform duration-300 group-hover:scale-120"
+                            className="object-cover transition-transform duration-300 group-hover:scale-120 group-focus:scale-115"
                         />
                     </div>
                     <div>
