@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { projects, Category } from "@/lib/projects-data"
+import { motion } from "motion/react"
 
 const categories: Category[] = ["All", "Graphic Design", "Web Development", "Mobile Apps"]
 
@@ -63,7 +64,15 @@ export default function Work() {
                 {/* Projects Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {filteredProjects.map((project) => (
-                        <div key={project.id} className="group cursor-pointer">
+                        <motion.div
+                            key={project.id}
+                            className="group cursor-pointer"
+                            whileInView={
+                                { y: 0, opacity: 1, filter: "blur(0px)" }
+                            }
+                            initial={{ y: 100, opacity: 0, filter: "blur(5px)" }}
+                            transition={{ duration: 0.5 }}
+                        >
                             <div className="relative aspect-4/3 overflow-hidden rounded-lg mb-4">
                                 <Image
                                     src={project.image || "/placeholder.svg"}
@@ -89,7 +98,7 @@ export default function Work() {
                                     </p>
                                 )}
                             </div>
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
 
