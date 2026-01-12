@@ -61,7 +61,7 @@ export default function Work() {
                 )}
 
                 {/* Projects Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {filteredProjects.map((project) => (
                         <div key={project.id} className="group cursor-pointer">
                             <div className="relative aspect-4/3 overflow-hidden rounded-lg mb-4">
@@ -69,7 +69,7 @@ export default function Work() {
                                     src={project.image || "/placeholder.svg"}
                                     alt={project.title}
                                     fill
-                                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                                    className="object-cover transition-transform duration-500 group-hover:scale-115 ease-in-out"
                                 />
                             </div>
                             <div>

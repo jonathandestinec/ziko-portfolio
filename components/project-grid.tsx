@@ -7,7 +7,7 @@ interface ProjectGridProps {
 
 export default function ProjectGrid({ projects }: ProjectGridProps) {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
             {projects.map((project) => (
                 <div key={project.id} className="group cursor-pointer">
                     <div className="relative aspect-4/3 overflow-hidden rounded-lg mb-4 bg-[#1a1a1a]">
@@ -15,7 +15,7 @@ export default function ProjectGrid({ projects }: ProjectGridProps) {
                             src={project.image || "/placeholder.svg"}
                             alt={project.title}
                             fill
-                            className="object-cover transition-transform duration-300 group-hover:scale-105"
+                            className="object-cover transition-transform duration-300 group-hover:scale-120"
                         />
                     </div>
                     <div>
