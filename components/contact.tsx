@@ -16,6 +16,8 @@ export default function Contact() {
         e.preventDefault()
         // Handle form submission
         console.log("Form submitted:", formData)
+        // Send mail
+        window.location.href = `mailto:arinzezikora772@gmail.com?subject=${formData.name}&body=${formData.message}`
     }
 
     return (
