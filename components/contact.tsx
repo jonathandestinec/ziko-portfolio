@@ -85,11 +85,11 @@ export default function Contact() {
                                 <div>
                                     <p className="text-gray-500 text-sm">Social Media</p>
                                     <div className="flex items-center gap-2 text-white">
-                                        <a href="#" className="hover:text-gray-300 transition-colors">
+                                        <a href="https://www.linkedin.com/in/arinze-zikora-76732b36b" className="hover:text-gray-300 transition-colors">
                                             LinkedIn
                                         </a>
                                         <span className="text-gray-500">•</span>
-                                        <a href="#" className="hover:text-gray-300 transition-colors">
+                                        <a href="https://www.instagram.com/arinze_zikora?igsh=NXE5c2hndmdwdGV5" className="hover:text-gray-300 transition-colors">
                                             Instagram
                                         </a>
                                     </div>

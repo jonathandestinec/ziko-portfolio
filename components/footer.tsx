@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Instagram, Linkedin, Github, Twitter } from "lucide-react"
+import { Instagram, Linkedin, Twitter, Facebook } from "lucide-react"
 
 export default function Footer() {
     return (
@@ -25,28 +25,28 @@ export default function Footer() {
                     {/* Social Links */}
                     <div className="flex items-center gap-4 break-all w-full">
                         <a
-                            href="#"
+                            href="https://www.instagram.com/arinze_zikora?igsh=NXE5c2hndmdwdGV5"
                             className="w-10 h-10 bg-[#1a1a1a] rounded-lg flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#2a2a2a] transition-colors"
                             aria-label="Instagram"
                         >
                             <Instagram size={18} />
                         </a>
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/in/arinze-zikora-76732b36b"
                             className="w-10 h-10 bg-[#1a1a1a] rounded-lg flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#2a2a2a] transition-colors"
                             aria-label="LinkedIn"
                         >
                             <Linkedin size={18} />
                         </a>
                         <a
-                            href="#"
+                            href="https://www.facebook.com/arinze.zikora02"
                             className="w-10 h-10 bg-[#1a1a1a] rounded-lg flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#2a2a2a] transition-colors"
                             aria-label="GitHub"
                         >
-                            <Github size={18} />
+                            <Facebook size={18} />
                         </a>
                         <a
-                            href="#"
+                            href="https://x.com/Ziko_rah"
                             className="w-10 h-10 bg-[#1a1a1a] rounded-lg flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#2a2a2a] transition-colors"
                             aria-label="Twitter"
                         >
